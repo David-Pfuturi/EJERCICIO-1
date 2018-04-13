@@ -7,7 +7,7 @@ int tam_cadena(char C[])
 {
     int tamanio=0;
     while (C[tamanio++]!='\0');
-    return tamanio;
+    return tamanio-1;
 }
 //arrays..
 void mostrar(char C[],int tam)
